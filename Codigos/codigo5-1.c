@@ -12,5 +12,7 @@ int main ()
     v[i] = i+1;
   }
 
+  free(v);
+
   return 0;
 }  
